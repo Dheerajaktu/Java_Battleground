@@ -1,18 +1,42 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A personal Java learning project covering core Java, concurrency, design patterns and more.
 
-## Folder Structure
+## Project Structure
 
-The workspace contains two folders by default, where:
+```
+Java_Playground
+├── .vscode
+├── bin
+├── lib
+├── src
+│   ├── collections
+│   ├── designPatterns
+│   ├── exceptions
+│   ├── fileSystem
+│   ├── memoryModel
+│   ├── newFeatures
+│   ├── oops
+│   ├── performanceOptimization
+│   ├── streams
+│   ├── threadingAndConcurrency
+│   │   ├── advancedThreading
+│   │   ├── executorService
+│   │   ├── future
+│   │   └── threadingPractice
+│   │       ├── CreateThread.java
+│   │       ├── ImplementFixedSizeThreadPool.java
+│   │       ├── PreventDuplicatePaymentProcessing.java
+│   │       ├── ProducerConsumerProblem.java
+│   │       ├── RunTwoThreadsSimultaneously.java
+│   │       ├── ThreadingOddEven.java
+│   │       ├── ThreadSafeBankAccount.java
+│   │       ├── ThreadSafeCounter.java
+│   │       ├── TransferMoneyBetweenTwoAccountsSafely.java
+│   │       └── WaitForThreadToFinish.java
+│   └── App.java
+└── README.md
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Author - Dheeraj Sharma!
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
